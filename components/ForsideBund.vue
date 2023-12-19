@@ -1,32 +1,40 @@
 <template>
-  <section class="w-full flex justify-center mt-40">
-    <div class="bgimg">
-        <h4></h4>
-        <p></p>
+  <section class="w-full flex justify-center mt-40 max-h-[390px] relative">
+    <div class="bgimg flex flex-col sm:flex-row justify-around items-center gap-3 rounded-md">
+        <div class="flex flex-col mb-20 ml-20 gap-5">
+        <h4> Tæt på naturen</h4>
+        <p class="max-w-[90%] font-semibold"> IKR har hovedkontor på det idylliske Hørbygaard Gods i Nordvestsjælland. Ro og nærværer nøglebegrebet der giver medarbejderne trivles og koncentration.</p>
+        </div>
+        <img src="https://i.ibb.co/db0jP2z/IKR-0009.jpg" class="max-w-[400px] max-h-[280px] sm:mr-16 rounded-sm" alt="">
     </div>
+    
   </section>
 
-  <section class="flex justify-center w-full">
+  <section class="flex justify-center w-full relative">
+<figure class="h-[200px] min-h-[200px] w-[180px] bg-[#2c2c2c] clip3 absolute left-0 top-0 -translate-y-5"></figure>
  <div class="flex flex-col mt-20 gap-5 w-[60%]">
     <h2>🙷 IKRs assistanse har givet os skarpere performance og compliance.. 🙷</h2>
     <p> Læs hvordan nogle af vores kunder har vurderet samarbejdet og de resultater processen har givet.</p>
     <NuxtLink to="#" class="font-semibold underline underline-offset-2"> Se mere her </NuxtLink>
  </div>
   </section>
-  <div class="h-[1000px]"></div>
+
 </template>
 
 <script>
-export default {
 
-}
 </script>
 
 <style>
 .bgimg {
-    background-image: url('https://i.ibb.co/phzjXxB/Baggrund-hvid-IKR.jpg');
-    height:400px;
-    width:80%;
+    background-image: url('https://i.ibb.co/98TPJyR/IKR-gr-n-baggrund-4000x2200px-2-2-1.jpg');
+    height:353px;
+    width:70%;
     background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.clip3 {
+    clip-path: polygon(0 0, 100% 49%, 100% 100%, 0 55%);
 }
 </style>

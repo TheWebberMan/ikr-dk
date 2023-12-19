@@ -35,6 +35,16 @@
     font-weight: bold;
   }
 
+  h4 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  h5 {
+    font-size: 23px;
+    font-weight: 600;
+  }
+
   h3{
     font-size: 34px;
     font-weight: 650;

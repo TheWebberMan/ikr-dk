@@ -39,6 +39,7 @@ export default {
 .header-img {
     background-image: url('https://i.ibb.co/f0Fg0Xw/FORSIDE-BILLEDE-2.jpg');
     background-size: contain;
+    background-repeat: no-repeat;
     background-position: top;
 }
 

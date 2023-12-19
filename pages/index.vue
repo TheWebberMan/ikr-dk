@@ -39,13 +39,13 @@
 </section>
 
 <ForsideBund />
-   
+<LogoKarrusel class="translate-y-20 border-t-[#2c2c2c] border-[0px] border-b-[#2c2c2c] min-h-[300px]" />
+<div></div>
+
 </template>
 
 <script>
-export default {
 
-}
 </script>
 
 <style scoped>
